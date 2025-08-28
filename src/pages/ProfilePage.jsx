@@ -194,14 +194,14 @@ const ProfilePage = () => {
                   </div>
 
                   {/* Submit Button */}
-                  <div className="pt-4">
+                  {/*<div className="pt-4">
                     <button
                       type="submit"
                       className="w-full md:w-auto px-6 py-2 bg-amber-600 text-white rounded-md hover:bg-amber-700 transition-colors font-medium shadow-md"
                     >
                       Update Profile
                     </button>
-                  </div>
+                  </div> */}
                 </form>
               </div>
             </div>
