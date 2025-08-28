@@ -7,6 +7,7 @@ import { LoginPage } from "./pages/LoginPage";
 import { HomePage } from "./pages/HomePage";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { ProfilePage } from "./pages/ProfilePage";
+import { CourseDetailsPage } from "./pages/CourseDetailsPage";
 
 const App = () => {
   const { appLoading, user } = useAppContext();
@@ -45,6 +46,7 @@ const App = () => {
         <Route path="/signup" element={<HomePage />} />
         <Route path="/login" element={<HomePage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/courses/:id" element={<CourseDetailsPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
